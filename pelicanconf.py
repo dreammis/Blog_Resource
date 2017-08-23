@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Pookz'
 SITENAME = u'Words Of Dreammis'
-SITEURL = 'blog.pookz.me'
+SITEURL = ''
 
 PATH = 'content'
 
@@ -24,7 +24,7 @@ AUTHOR_FEED_RSS = None
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+         ('You can modify those links in your config file111', '#'),)
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
@@ -36,7 +36,7 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 PLUGIN_PATHS = [u"pelican-plugins"]
-PLUGINS = ['sitemap']  # , 'gzip_cache']
+PLUGINS = ['sitemap', 'related_posts']  # , 'gzip_cache']
 
 SITEMAP = {
     "format": "xml",
@@ -52,13 +52,34 @@ SITEMAP = {
     }
 }
 
-# Themes
+# Themes Start
 THEME = 'voidy-bootstrap'
+SITETAG = "One Man who is insane!!"	    #浏览器tag名称 
+SITESUBTITLE =u'一个时常自娱自乐的俗人.' # 副主题
+STYLESHEET_FILES = ("pygment.css", "voidybootstrap.css",)
+SIDEBAR = "sidebar.html"
+
+SOCIAL = (('Google+', 'http://plus.google.com/107598365859176363115',
+         'fa fa-google-plus-square fa-fw fa-lg'),
+        ('Twitter', 'https://twitter.com/dreammis',
+         'fa fa-twitter-square fa-fw fa-lg'),
+        ('GitHub', 'http://github.com/dreammis',
+         'fa fa-github-square fa-fw fa-lg'),
+        )
+
+SIDEBAR = "sidebar.html"
+CUSTOM_SIDEBAR_MIDDLES = ("sb_links.html", "sb_taglist.html", )
+
+# Themes End
+
+
 DISQUS_SITENAME = 'bee firedirx'
 GOOGLE_ANALYTICS = 'UA-89126305-2'
 
 #KEYWORDS = u"Python, Web, 开源, Django, 杭州, 房地产"
 
-SITESUBTITLE =u'一个时常自娱自乐的俗人.'
-SITETAG = "One Man who is insane!!"
+
+
+
+
 

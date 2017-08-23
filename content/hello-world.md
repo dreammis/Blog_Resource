@@ -23,8 +23,5 @@ Write you post like this:
 
 Add a picture like this:
 
-    ![Manhattan](/images/Manhattan.jpg)
-
-![Manhattan](/images/Manhattan.jpg)
 
 Check the <a href="http://crotal.org/docs/" target="_blank">documents</a> for more information.
