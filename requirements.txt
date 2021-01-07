@@ -31,7 +31,7 @@ ipython-genutils==0.2.0
 itsdangerous==0.24
 Jinja2==2.9.6
 kombu==3.0.37
-lxml==2.3
+lxml==4.6.2
 Markdown==2.6.9
 MarkupSafe==1.0
 matplotlib==2.0.2
