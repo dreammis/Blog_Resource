@@ -45,7 +45,7 @@ pathlib2==2.3.0
 pelican==3.7.1
 pickleshare==0.7.4
 PIL==1.1.7
-Pillow==4.2.0
+Pillow==8.1.1
 prompt-toolkit==1.0.14
 pyasn1==0.3.2
 pycparser==2.18
